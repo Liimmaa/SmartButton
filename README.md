@@ -114,7 +114,6 @@ Copy `SmartButton.swift` into your project.
 ---
 
 ## 📸 Screenshots
-![SmartButton Screenshot](https://raw.githubusercontent.com/liimmaa/SmartButton/main/Assets/iPhoneBezel.jpg)
 ![SmartButton](Assets/iPhoneBezel.jpg)
 ![SmartButton + Async](Assets/iPhoneBezelAsync.jpg)
 ![SmartButton Demo](Assets/iPhoneRecording.mp4)
