@@ -109,7 +109,42 @@ SmartButton(
 ### Option 1: Drag & Drop
 Copy `SmartButton.swift` into your project.
 
-### Option 2: Swift Package Manager *(coming soon)*
+### Option 2: Swift Package Manager 
+You can install **SmartButton** in your project using **Swift Package Manager**, which is built into Xcode.
+
+### 🔹 Option 1: Add via Xcode UI
+
+1. Open your Xcode project
+2. Go to **File > Add Packages...**
+3. In the search bar, enter:
+
+```
+https://github.com/liimmaa/SmartButton
+```
+
+4. Select the version (use `1.0.0` or “Up to Next Major”)
+5. Click **Add Package**
+6. Import it into your Swift file:
+
+```swift
+import SmartButton
+```
+
+---
+
+### 🔹 Option 2: Add via `Package.swift`
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/liimmaa/SmartButton", from: "1.0.0")
+]
+```
+
+Then import where needed:
+
+```swift
+import SmartButton
+```
 
 ---
 
